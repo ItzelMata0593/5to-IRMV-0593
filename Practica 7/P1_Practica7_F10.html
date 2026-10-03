@@ -18,30 +18,30 @@
 
 <p>El HTML no tiene la responsabilidad de registrar los datos en el servidor, esta actividad se delega a traves de un lenguaje que se ejecute en el servidor (PHP, ASP, ASP.NET, Node, etc.)</p> <!-- Informacion -->
 
-<h2>Formularios con agrupamiento</h2>
-<form action="" method="post">
-<fieldset>
-<legend>Datos personales</legend>
+<h2>Formularios con agrupamiento</h2><!-- Subtitulo -->
+<form action="" method="post"><!-- Contenedor de formulario; dice a donde mandar la informacion; manda la informacion de manera segura -->
+<fieldset><!-- sirve para agrupar cuadros que estan relacionados -->
+<legend>Datos personales</legend><!-- Esfrito en la linea superior para indicar de que trata el grupo -->
 Nombre y apellido:
-<input type="text" name="nombre_apellido"><br>
+<input type="text" name="nombre_apellido"><!-- campo para el calendario --><br><!-- Salto de linea -->
 Documento valido:
-<input type="file" name="documento"><br>
+<input type="file" name="documento"><!-- Campo para adjuntar un archivo --><br><!-- Salto de linea -->
 Fecha de nacimiento:
-
-<input type="date" name="fecha_nacimiento">
+<input type="date" name="fecha_nacimiento"><!-- Campo para el calendario -->
 </fieldset>
-<fieldset>
-<legend>Datos de estudio:</legend>
+	
+<fieldset><!-- sirve para agrupar cuadros que estan relacionados -->
+<legend>Datos de estudio:</legend><!-- Escrito en la linea superior para indicar de que trata el grupo -->
 Nombre de la escuela:
-<input type="text" name="escuela"><br>
+<input type="text" name="escuela"><!-- Cuadro de texto --><br><!-- Salto de linea -->
 Certificado valido:
-<input type="file" name="certificado"><br>
+<input type="file" name="certificado"><!-- Campo para adjuntar archivo --><br><!-- Salto de linea -->
 Fecha de egreso:
-<input type="date" name="fecha_egreso">
+<input type="date" name="fecha_egreso"><!-- campo para el calendario -->
 </fieldset>
-<br>
-<button type="submit">Enviar <i class="fa-regular fa-paper-plane"></i> </button>
-<button type="reset">Borrar <i class="fa fa-trash"></i></button>
+<br><!-- Salto de linea -->
+<button type="submit">Enviar <i class="fa-regular fa-paper-plane"></i> </button><!-- Boton para enviar con iconi de avion -->
+<button type="reset">Borrar <i class="fa fa-trash"></i></button><!-- Boton para limpiar con icono de bote de basura -->
 </form>
 
 </body>
