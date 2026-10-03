@@ -18,15 +18,15 @@
 
 <p>El HTML no tiene la responsabilidad de registrar los datos en el servidor, esta actividad se delega a traves de un lenguaje que se ejecute en el servidor (PHP, ASP, ASP.NET, Node, etc.)</p> <!-- Informacion -->
 
-<h2>Formulario con limitaciones</h2>
-<form action="" method="post">
+<h2>Formulario con limitaciones</h2><!-- Subtitulo -->
+<form action="" method="post"><!-- contenedor de formulario; dice a donde mandar la informacion; manda la informacion de manera segura -->
 Ingresa tu nombre:
-<!-- Desahbilitacion de campo -->
+<!-- Desahbilitacion de campo de texto-->
 <input type="text" name="nombre" disabled><br>
-<!-- Limitacion de caracteres -->
+<!-- Limitacion de caracteres, largo maximo para una contraseña -->
 Contraseña:
 <input type="password" name="pass" maxlength="5"><br>
-<!-- Solo lectura -->
+<!-- El usuario solo puede ver el texto no editarlo -->
 Comentarios:
 <textarea name="comentarios" readonly>
 
