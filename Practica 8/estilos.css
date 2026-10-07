@@ -11,6 +11,10 @@ nav{
 	color: #A9A9A9; font-size: 15px; text-align: Center; 
 }
 
+nav a{
+	text-decoration: none;
+}
+
 main {
   display: flex; padding: 100px; font-size: 20px;
 }
